@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color:#FF4C29;
+  
+}
+.calculator{
+  
+  width:300px;
+  height:450px;
+  background:#082032;
+  border-radius:10px;
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  padding:15px 0px;
+  box-shadow:5px 5px 10px  #2A2A2A85, inset 0px 0px 50px 10px black;
+  overflow:scroll;
+}
+h3{
+  color:white;
+  margin-bottom:10px;
+}
+label{
+  text-align:left;
+  color:white;
+  margin:10px;
+}
+input{
+  width:250px;
+  height:30px;
+  padding:5px;
+  margin:10px;
+  outline:none;
+  border-radius:5px;
+  border:none;
+  
+}
+button{
+  width:120px;
+  height:30px;
+  border-radius:5px;
+  margin-top:20px;
+  border:none;
+  outline:none;
+  background-color:#FF4C29;
+  font-weight:999;
+  box-shadow:inset 0px -3px 10px black;
+  
+}
+p{
+  color:white;
+  margin-top:15px;
+}
+.link{
+  position:absolute;
+  top:95%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color:#082032;
+width:250px;
+text-align:center;
+  color:white;
+  font-weight:999;
+  font-size:4vw;
+  height:35px ;
+  font-size:20px;
+  padding-top:5px;
+  border-radius:5px;
+ margin-bottom:5vw;
+}
+ 
